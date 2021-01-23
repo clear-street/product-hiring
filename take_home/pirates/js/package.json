@@ -1,0 +1,19 @@
+{
+    "name": "PirateGame",
+    "type": "module",
+    "description": "description",
+    "version": "1.0.0",
+    "author": "Miguel Mejia <mmejia@clearstreet.io>",
+    "license": "MIT",
+    "main": "main.js",
+    "scripts": {
+        "dev": "nodemon — exec babel-node main.js"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/core": "^7.12.10",
+        "@babel/node": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "nodemon": "^2.0.6"
+    }
+}
