@@ -1,4 +1,4 @@
-const GameMaster = require('./gameMaster')
+const GameMaster =  require('./gameMaster')
 const welcomeMessage = `
                          _____
                       .-" .-. "-.
@@ -21,13 +21,12 @@ const welcomeMessage = `
             | .__/|_|_|  \\__,_|\\__\\___|
             | |
             |_|
-    `
-
+    `;
 function main() {
     const gameMaster = new GameMaster()
     console.log(welcomeMessage);
+    //NOTE: awkward function names can be confusing 
     gameMaster.turn()
 
 }
-
 main()

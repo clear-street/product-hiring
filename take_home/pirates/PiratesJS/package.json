@@ -8,7 +8,10 @@
     "scripts": {
         "dev": "nodemon — exec babel-node main.js"
     },
-    "dependencies": {},
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "readline-sync": "^1.4.10"
+    },
     "devDependencies": {
         "@babel/core": "^7.12.10",
         "@babel/node": "^7.12.10",
